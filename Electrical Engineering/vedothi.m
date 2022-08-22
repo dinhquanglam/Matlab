@@ -1,0 +1,13 @@
+t = -pi:0.1:pi;
+t=t.^2;
+y = sin(t);
+plot(t,y,'r');
+xlabel('thoi gian');
+ylabel('bien do');
+title('do thi y=sint');
+grid on;
+ylim([-2 2]);
+xlim([ -2 10]);
+z= cos(t);
+hold on;
+plot(t,z,'b');

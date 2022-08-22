@@ -1,0 +1,11 @@
+[x] = unit_sig(n,1)
+subplot(211)
+stem(n,x)
+xlim([-10 10])
+title('tin hieu u(n-1)')
+
+[x_new n_new] = sig_reflect(x,n)
+subplot(212)
+stem(n_new,x_new)
+xlim([-10 10])
+title('sau khi lat:')

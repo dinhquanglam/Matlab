@@ -1,0 +1,6 @@
+i = randn(5)
+[x] = max(i)
+disp('gia tri lon nhat cua i la:' )
+[y] = max(x)
+disp('gia tri nho nhat cua i la:')
+[z] = min(x)
